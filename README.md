@@ -8,8 +8,8 @@ An end-to-end lead analytics project combining predictive conversion modeling, m
 - `notebooks/02_data_transform.ipynb` — data preparation and 70/15/15 split
 - `notebooks/03_Building_model.ipynb` — logistic regression, random forest and XGBoost comparison; isotonic calibration
 - `notebooks/04_SHAP.ipynb` — interpretation of the underlying classifier (not calibrated probabilities)
-- `notebooks/06_Model_Evaluation.ipynb` — held-out evaluation and prioritization analysis
-- `notebooks/07_Revenue_Intelligence.ipynb` — probability-versus-illustrative-expected-commission prioritization and example scoring
+- `notebooks/05_Model_Evaluation.ipynb` — held-out evaluation and prioritization analysis
+- `notebooks/06_Revenue_Intelligence.ipynb` — probability-versus-illustrative-expected-commission prioritization and example scoring
 - `src/lead_scoring_utils.py` — shared preprocessing and feature utilities
 - `models/lead_scoring_pipeline_v2.joblib` — corrected, previously verified saved model bundle
 - `images/` — SHAP illustrations
